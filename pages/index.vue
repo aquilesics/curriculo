@@ -1,6 +1,6 @@
 <template>
   <!-- moldura -->
-  <div class="space-y-2 md:flex md:space-x-4 md:space-y-0 p-6 bg-gray-100">
+  <div class="space-y-2 md:flex min-h-screen md:space-x-4 md:space-y-0 p-6 bg-gray-100">
     <!-- perfil pessoal -->
     <div class="div border-2 rounded-md space-y-4 md:flex-grow p-4">
       <!-- foto e nome  -->
@@ -43,12 +43,10 @@
     </div>
     <!-- conteudo do curriculo -->
     <div class="justify-center items-center space-y-4 border-2 rounded-md p-4 md:flex-grow md:w-4/5">
-      <div class="text-md">
-        <h1 class="flex justify-center mt-4">
-          Precisando de uma mãozinha ?<br>
-          Talvez eu possa te ajudar:
-        </h1>
-      </div>
+      <p class="flex-col text-center items-center justify-center mt-4">
+        Precisando de uma mãozinha? <br>
+        Talvez eu possa te ajudar:
+      </p>
       <!-- cards de habilidades -->
       <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 items-center jsutify-center">
         <CardHabilidade v-for="icon in icons" :key="icon.title">
