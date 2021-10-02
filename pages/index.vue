@@ -1,20 +1,21 @@
 <template>
   <!-- moldura -->
-  <div class="space-y-2 md:flex md:space-x-4 md:space-y-0 p-6">
+  <div class="space-y-2 md:flex md:space-x-4 md:space-y-0 p-6 bg-gray-100">
     <!-- perfil pessoal -->
     <div class="div border-2 rounded-md space-y-4 md:flex-grow p-4">
       <!-- foto e nome  -->
       <div class="div flex flex-wrap items-center gap-4 md:flex-col">
-        <img class="w-16 h-16 rounded-full flex-shrink-0 border-2 border-green-500 p-1 md:w-32 md:h-32" src="https://images.unsplash.com/photo-1633010999952-dd67157f7b81?ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTd8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+        <img class="z-10absolute w-16 h-16 rounded-full flex-shrink-0 border-2 border-purple-300 p-1 md:w-32 md:h-32" src="../assets/cover.jpg" alt="">
         <div class="flex flex-col">
-          <span class="text-xl font-bold">Nome kjaksjakjsd</span>
-          <span class="text-sm font">asdasdasd</span>
+          <span class="text-xl font-bold">Aquiles Coutinho</span>
+          <span class="text-sm font">aquilesics</span>
         </div>
       </div>
       <p class="text-grey-500 border-t border-solid" />
       <!-- bio e info-->
       <div class="space-y-4">
-        <p class="text-md">Adsdfsd sdfsd sdfsf sdfs sdc erfw wkolf weflkv wefkw</p>
+        <p class="text-md">
+          Gosto de automatizar tarefas chatas e adoro musica!</p>
         <!-- adress, phone ,email...-->
         <div class="flex-col text-sm space-y-1">
           <div class="flex space-x-4 items-center">
@@ -41,37 +42,32 @@
     </div>
     <!-- conteudo do curriculo -->
     <div class="justify-center items-center space-y-4 border-2 rounded-md p-4 md:flex-grow md:w-4/5">
+      <div class="text-md">
+        <h1 class="flex justify-center mt-4">
+          Precisando de uma mãozinha ?<br>
+          Talvez eu possa te ajudar:
+        </h1>
+      </div>
       <!-- cards de habilidades -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 border-2">
-        <div class="border-2">
-          1
-        </div>
-        <div class="border-2">
-          2
-        </div>
-        <div class="border-2">
-          3
-        </div>
-        <div class="border-2">
-          4
-        </div>
-        <div class="border-2">
-          5
-        </div>
-        <div class="border-2">
-          6
-        </div>
-        <div class="border-2">
-          7
-        </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 items-center jsutify-center">
+        <CardHabilidade v-for="icon in icons" :key="icon.title">
+          <img slot="image" :src="require(`@/assets/${icon.image}`)">
+          {{ icon.image }}
+          <h1 slot="title">
+            {{ icon.title }}
+          </h1>
+          <li v-for="item in icon.items" :key="item.title" slot="lista">
+            {{ item }}
+          </li>
+        </CardHabilidade>
       </div>
       <div class="text-xl font-bold">
-        <h1 class="flex justify-center">
-          Xp
+        <p class="text-gray-900 border-t border-solid" />
+        <h1 class="flex justify-center mt-4">
+          Experiências:
         </h1>
       </div>
       <!-- card de experiencias -->
-
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <CardExperiencia v-for="xp in experiencias" :key="xp.empresa">
           <p slot="empresa">
@@ -98,11 +94,18 @@ export default {
   data () {
     return {
       icons: [
-        { title: 'frutas', items: ['has been the industrys standard dummy text ever since the 1500s', 'uva'], image: 'powerbi.svg' },
-        { title: 'carros', items: ['ford', 'when an unknown printer a type It has survived not only five centuries,', 'Ka'], image: 'python.svg' },
-        { title: 'carros', items: ['ford', 'opel', 'Ka'], image: 'bash.svg' },
-        { title: 'carros', items: ['ford', 'opel', 'Ka'], image: 'bash.svg' },
-        { title: 'carros', items: ['ford', 'opel', 'Ka'], image: 'bash.svg' }
+        { title: 'Flask', items: ['has been the industrys standard dummy text ever since the 1500s', 'uva'], image: 'flask.svg' },
+        { title: 'Python', items: ['ford', 'when an unknown printer a type It has survived not only five centuries,', 'Ka'], image: 'python.svg' },
+        { title: 'Bash', items: ['ford', 'opel', 'Ka'], image: 'bash.svg' },
+        { title: 'Pandas', items: ['ford', 'Go', 'Ka'], image: 'pandas.svg' },
+        { title: 'Docker', items: ['ford', 'Docker', 'Ka'], image: 'docker.svg' },
+        { title: 'Git', items: [], image: 'git.svg' },
+        { title: 'Java Script', items: [], image: 'js.svg' },
+        { title: 'css', items: [], image: 'css.svg' },
+        { title: 'vue', items: [], image: 'vue.svg' },
+        { title: 'Mongo DB', items: [], image: 'mongodb.svg' },
+        { title: 'Power bi', items: [], image: 'powerbi.svg' },
+        { title: 'Postgresql', items: [], image: 'postgres.svg' }
       ],
       experiencias: [
         {
@@ -127,4 +130,5 @@ export default {
     }
   }
 }
+
 </script>

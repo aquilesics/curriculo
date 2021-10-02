@@ -21,7 +21,7 @@
           Habilidades:
         </h2>
         <div class="flex flex-wrap justify-center">
-          <icons v-for="icon in icons" :key="icon.title">
+          <CardHabilidade v-for="icon in icons" :key="icon.title">
             <img slot="image" :src="require(`@/assets/${icon.image}`)">
             {{ icon.image }}
             <h1 slot="title">
@@ -30,7 +30,7 @@
             <li v-for="item in icon.items" :key="item.title" slot="lista">
               {{ item }}
             </li>
-          </icons>
+          </CardHabilidade>
         </div>
         <p class="mt-4 pt-4 text-gray-800 border-t border-dashed" />
         <h2 class="text-xl leading-7 font-semibold text-center mb-4">
