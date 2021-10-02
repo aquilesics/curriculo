@@ -1,6 +1,7 @@
 {
   "name": "curriculo",
   "version": "1.0.0",
+  "engines":{"node": "14.17.6","npm":"7.24.0"},
   "private": true,
   "scripts": {
     "dev": "nuxt",
