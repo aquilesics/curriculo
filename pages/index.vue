@@ -43,7 +43,7 @@
     </div>
     <!-- conteudo do curriculo -->
     <div class="justify-center items-center space-y-4 border-2 rounded-md p-4 md:flex-grow md:w-4/5">
-      <p class="flex-col text-center items-center justify-center mt-4">
+      <p class="flex-col text-center items-center justify-center">
         Precisando de uma mãozinha? <br>
         Talvez eu possa te ajudar:
       </p>
