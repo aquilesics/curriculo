@@ -15,7 +15,8 @@
       <!-- bio e info-->
       <div class="space-y-4">
         <p class="text-md">
-          Gosto de automatizar tarefas chatas e adoro musica!</p>
+          Gosto de automatizar tarefas chatas e adoro musica!
+        </p>
         <!-- adress, phone ,email...-->
         <div class="flex-col text-sm space-y-1">
           <div class="flex space-x-4 items-center">
