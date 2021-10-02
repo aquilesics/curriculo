@@ -5,7 +5,7 @@
     <div class="div border-2 rounded-md space-y-4 md:flex-grow p-4">
       <!-- foto e nome  -->
       <div class="div flex flex-wrap items-center gap-4 md:flex-col">
-        <img class="z-10absolute w-16 h-16 rounded-full flex-shrink-0 border-2 border-purple-300 p-1 md:w-32 md:h-32" src="../assets/cover.jpg" alt="">
+        <img class="z-10absolute w-16 h-16 rounded-full flex-shrink-0 border-2 border-purple-300 p-1 md:w-32 md:h-32" src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNwbGFzaHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
         <div class="flex flex-col">
           <span class="text-xl font-bold">Aquiles Coutinho</span>
           <span class="text-sm font">aquilesics</span>
