@@ -1,4 +1,8 @@
 export default {
+  loading: {
+    color: 'purple',
+    height: '2px'
+  },
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
@@ -9,7 +13,7 @@ export default {
   head: {
     title: 'Aquiles Roberto - curriculum vitae',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'pt-br'
     },
     meta: [
       { charset: 'utf-8' },
