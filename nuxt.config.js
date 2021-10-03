@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'curriculo',
+    title: 'Aquiles Roberto - curriculum vitae',
     htmlAttrs: {
       lang: 'en'
     },

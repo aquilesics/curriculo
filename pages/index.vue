@@ -5,17 +5,17 @@
     <div class="div border-2 rounded-md space-y-4 md:flex-grow p-4">
       <!-- foto e nome  -->
       <div class="div flex flex-wrap items-center gap-4 md:flex-col">
-        <img class="z-10absolute w-16 h-16 rounded-full flex-shrink-0 border-2 border-purple-300 p-1 md:w-32 md:h-32" src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNwbGFzaHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+        <img class="w-16 h-16 rounded-full flex-shrink-0 border-2 border-purple-300 p-1 md:w-32 md:h-32" src="../assets/1_me_greyscale.jpg" alt="">
         <div class="flex flex-col">
           <span class="text-xl font-bold">Aquiles Coutinho</span>
-          <span class="text-sm font">aquilesics</span>
+          <span class="text-sm font">@aqls_art</span>
         </div>
       </div>
       <p class="text-grey-500 border-t border-solid" />
       <!-- bio e info-->
       <div class="space-y-4">
         <p class="text-md">
-          Gosto de automatizar tarefas chatas e adoro musica!
+          Gosto de automatizar tarefas chatas e adoro arte!
         </p>
         <!-- adress, phone ,email...-->
         <div class="flex-col text-sm space-y-1">
@@ -44,7 +44,7 @@
     <!-- conteudo do curriculo -->
     <div class="justify-center items-center space-y-4 border-2 rounded-md p-4 md:flex-grow md:w-4/5">
       <p class="flex-col text-center items-center justify-center">
-        Precisando de uma mãozinha? <br>
+        Precisando de uma mãozinha? 👋 <br>
         Talvez eu possa te ajudar:
       </p>
       <!-- cards de habilidades -->
@@ -93,37 +93,46 @@ export default {
   data () {
     return {
       icons: [
-        { title: 'Flask', items: ['has been the industrys standard dummy text ever since the 1500s', 'uva'], image: 'flask.svg' },
-        { title: 'Python', items: ['ford', 'when an unknown printer a type It has survived not only five centuries,', 'Ka'], image: 'python.svg' },
-        { title: 'Bash', items: ['ford', 'opel', 'Ka'], image: 'bash.svg' },
-        { title: 'Pandas', items: ['ford', 'Go', 'Ka'], image: 'pandas.svg' },
-        { title: 'Docker', items: ['ford', 'Docker', 'Ka'], image: 'docker.svg' },
-        { title: 'Git', items: [], image: 'git.svg' },
-        { title: 'Java Script', items: [], image: 'js.svg' },
-        { title: 'css', items: [], image: 'css.svg' },
-        { title: 'vue', items: [], image: 'vue.svg' },
-        { title: 'Mongo DB', items: [], image: 'mongodb.svg' },
-        { title: 'Power bi', items: [], image: 'powerbi.svg' },
-        { title: 'Postgresql', items: [], image: 'postgres.svg' }
+        { title: 'Flask (Intermediário)', items: ['REST api', 'Blueprints', 'SPA'], image: 'flask.svg' },
+        { title: 'Python (Intermediário)', items: ['Lambda, map, filter', 'Funções geradoras (yield)', 'Functools (Lru_cache, reduce, singledispatch)', 'ABC', 'Virtual env', 'Packing e unpacking'], image: 'python.svg' },
+        { title: 'Bash (Intermediário)', items: ['Cat, ls, cd e outros programas GNU', 'AWK pra processar texto', 'STDIN e STDOUT'], image: 'bash.svg' },
+        { title: 'Pandas (básico)', items: ['ETL de dataframes', 'jupyter notebook', 'loc, iloc e outros métodos comuns'], image: 'pandas.svg' },
+        { title: 'Docker', items: ['Simular ambientes de Prod'], image: 'docker.svg' },
+        { title: 'Git', items: ['Commits, pushs, brench'], image: 'git.svg' },
+        { title: 'Java Script (básico)', items: ['Node', 'Noções de Funções e objetos'], image: 'js.svg' },
+        { title: 'css', items: ['Responsive Design, Flex, Grid', 'Animations etc'], image: 'css.svg' },
+        { title: 'vue (básico)', items: ['Single components', 'Templates, diretivas, props'], image: 'vue.svg' },
+        { title: 'Mongo DB', items: ['banco de dados não relacional'], image: 'mongodb.svg' },
+        { title: 'Power bi (Intermediário)', items: ['Dax e Formula M', 'integração com Views'], image: 'powerbi.svg' },
+        { title: 'Postgresql (básico)', items: ['DML, Views', 'Groups, joins e relações', 'funções personalizadas'], image: 'postgres.svg' }
       ],
       experiencias: [
         {
           empresa: 'Accenture',
-          cargo: 'Analista Junior',
+          cargo: 'Analista Financeiro Junior',
           periodo: {
-            inicio: 'ago/2020',
-            fim: 'dez/2020'
+            inicio: 'Set/2019',
+            fim: 'Set/2020'
           },
-          descricao: ['fazia cafe', 'vendia pc positivo']
+          descricao: ['Manipulação de Dados e Reports Diários/Semanais.', 'Automação de Processos (Power Automate).', 'Fluxo de emails e respostas automáticas.', 'Substituição de reports em excel para dashboards.', 'Downloads automáticos utilizando Powershell ou Python (Requests ou Scrapy).']
         },
         {
-          empresa: 'casas bahia',
-          cargo: 'vendedor',
+          empresa: 'Quickfast',
+          cargo: 'Analista de Suporte',
           periodo: {
-            inicio: 'set/2020',
-            fim: 'dez/2020'
+            inicio: 'Fev/2018',
+            fim: 'Dez/2018'
           },
-          descricao: ['fazia cafe tbm', 'planfetagem']
+          descricao: ['Analista do banco de dados local (Firebird).', 'Relator de bugs da aplicação mobile.', 'Auxiliar Clientes na utilização do sistema ERP.']
+        },
+        {
+          empresa: 'DIGI',
+          cargo: 'Freelancer (Temporário) Power Bi',
+          periodo: {
+            inicio: 'Jul/2021',
+            fim: 'Jul/2021'
+          },
+          descricao: ['DML/DDL com postgres e mysql.', 'Criação de dashboards utilizando Powerbi.', 'DAX, Power Query e Language M.']
         }
       ]
     }
