@@ -129,7 +129,13 @@ export default {
             inicio: 'Set/2019',
             fim: 'Set/2020'
           },
-          descricao: ['Manipulação de Dados e Reports Diários/Semanais.', 'Automação de Processos (Power Automate).', 'Fluxo de emails e respostas automáticas.', 'Substituição de reports em excel para dashboards.', 'Downloads automáticos utilizando Powershell ou Python (Requests ou Scrapy).']
+          descricao: [
+            'Manipulação de Dados e Reports Diários/Semanais.',
+            'Automação de Processos (Power Automate).',
+            'Fluxo de emails e respostas automáticas.',
+            'Substituição de reports em excel para dashboards.',
+            'Downloads automáticos utilizando Powershell ou Python (Requests ou Scrapy).'
+          ]
         },
         {
           empresa: 'Quickfast',
@@ -138,7 +144,11 @@ export default {
             inicio: 'Fev/2018',
             fim: 'Dez/2018'
           },
-          descricao: ['Analista do banco de dados local (Firebird).', 'Relator de bugs da aplicação mobile.', 'Auxiliar Clientes na utilização do sistema ERP.']
+          descricao: [
+            'Analista do banco de dados local (Firebird).',
+            'Relator de bugs da aplicação mobile.',
+            'Auxiliar Clientes na utilização do sistema ERP.'
+          ]
         },
         {
           empresa: 'DIGI',
@@ -147,7 +157,11 @@ export default {
             inicio: 'Jul/2021',
             fim: 'Jul/2021'
           },
-          descricao: ['DML/DDL com postgres e mysql.', 'Criação de dashboards utilizando Powerbi.', 'DAX, Power Query e Language M.']
+          descricao: [
+            'DML/DDL com postgres e mysql.',
+            'Criação de dashboards utilizando Powerbi.',
+            'DAX, Power Query e Language M.'
+          ]
         }
       ]
     }
