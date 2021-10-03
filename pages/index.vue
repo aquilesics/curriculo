@@ -1,6 +1,6 @@
 <template>
   <!-- moldura -->
-  <div class="space-y-2 md:flex min-h-screen md:space-x-4 md:space-y-0 p-6 bg-gray-100">
+  <div class="space-y-2 md:flex min-h-screen md:space-x-4 md:space-y-0 p-4 md:p-6 lg:p-8 bg-gray-100">
     <!-- perfil pessoal -->
     <div class="div border-2 rounded-md space-y-4 md:flex-grow p-4">
       <!-- foto e nome  -->
@@ -117,9 +117,9 @@ export default {
         { title: 'Java Script (básico)', items: ['Node', 'Noções de Funções e objetos'], image: 'js.svg' },
         { title: 'css', items: ['Responsive Design, Flex, Grid', 'Animations etc'], image: 'css.svg' },
         { title: 'vue (básico)', items: ['Single components', 'Templates, diretivas, props'], image: 'vue.svg' },
-        { title: 'Mongo DB', items: ['banco de dados não relacional'], image: 'mongodb.svg' },
-        { title: 'Power bi (Intermediário)', items: ['Dax e Formula M', 'integração com Views'], image: 'powerbi.svg' },
-        { title: 'Postgresql (básico)', items: ['DML, Views', 'Groups, joins e relações', 'funções personalizadas'], image: 'postgres.svg' }
+        { title: 'Mongo DB', items: ['Banco de dados não relacional'], image: 'mongodb.svg' },
+        { title: 'Power bi (Intermediário)', items: ['Dax e Formula M', 'Integração com Views'], image: 'powerbi.svg' },
+        { title: 'Postgresql (básico)', items: ['DML, Views', 'Groups, joins e relações', 'Funções personalizadas'], image: 'postgres.svg' }
       ],
       experiencias: [
         {
@@ -142,7 +142,7 @@ export default {
         },
         {
           empresa: 'DIGI',
-          cargo: 'Freelancer (Temporário) Power Bi',
+          cargo: 'Freelancer Power Bi',
           periodo: {
             inicio: 'Jul/2021',
             fim: 'Jul/2021'
