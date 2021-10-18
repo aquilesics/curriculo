@@ -108,6 +108,7 @@ export default {
   data () {
     return {
       icons: [
+        { title: 'GCP', items: ['Analytics', 'Big Query', 'Dataprep', 'Data Studio'], image: 'gcp.svg' },
         { title: 'Flask (Intermediário)', items: ['REST api', 'Blueprints', 'SPA'], image: 'flask.svg' },
         { title: 'Python (Intermediário)', items: ['Lambda, map, filter', 'Funções geradoras (yield)', 'Functools (Lru_cache, reduce, singledispatch)', 'ABC', 'Virtual env', 'Packing e unpacking'], image: 'python.svg' },
         { title: 'Bash (Intermediário)', items: ['Cat, ls, cd e outros programas GNU', 'AWK pra processar texto', 'STDIN e STDOUT'], image: 'bash.svg' },
@@ -117,7 +118,6 @@ export default {
         { title: 'Java Script (básico)', items: ['Node', 'Noções de Funções e objetos'], image: 'js.svg' },
         { title: 'css', items: ['Responsive Design, Flex, Grid', 'Animations etc'], image: 'css.svg' },
         { title: 'vue (básico)', items: ['Single components', 'Templates, diretivas, props'], image: 'vue.svg' },
-        { title: 'Mongo DB', items: ['Banco de dados não relacional'], image: 'mongodb.svg' },
         { title: 'Power bi (Intermediário)', items: ['Dax e Formula M', 'Integração com Views'], image: 'powerbi.svg' },
         { title: 'Postgresql (básico)', items: ['DML, Views', 'Groups, joins e relações', 'Funções personalizadas'], image: 'postgres.svg' }
       ],
