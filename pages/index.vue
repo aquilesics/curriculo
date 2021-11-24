@@ -127,7 +127,7 @@ export default {
           cargo: 'Analista Financeiro Junior',
           periodo: {
             inicio: 'Set/2019',
-            fim: 'Set/2020'
+            fim: 'Jun/2021'
           },
           descricao: [
             'Manipulação de Dados e Reports Diários/Semanais.',
