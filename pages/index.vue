@@ -111,7 +111,7 @@ export default {
         { title: 'GCP', items: ['Analytics', 'Big Query', 'Dataprep', 'Data Studio'], image: 'gcp.svg' },
         { title: 'Flask (Intermediário)', items: ['REST api', 'Blueprints', 'SPA'], image: 'flask.svg' },
         { title: 'Python (Intermediário)', items: ['Lambda, map, filter', 'Funções geradoras (yield)', 'Functools (Lru_cache, reduce, singledispatch)', 'ABC', 'Virtual env', 'Packing e unpacking'], image: 'python.svg' },
-        { title: 'Bash (Intermediário)', items: ['Cat, ls, cd e outros programas GNU', 'AWK pra processar texto', 'STDIN e STDOUT'], image: 'bash.svg' },
+        { title: 'Bash (Intermediário)', items: ['Cat, ls, cd e outros programas GNU', 'AWK para processameno de texto', 'STDIN e STDOUT'], image: 'bash.svg' },
         { title: 'Pandas (básico)', items: ['ETL de dataframes', 'jupyter notebook', 'loc, iloc e outros métodos comuns'], image: 'pandas.svg' },
         { title: 'Docker', items: ['Simular ambientes de Prod'], image: 'docker.svg' },
         { title: 'Git', items: ['Commits, pushs, brench'], image: 'git.svg' },
