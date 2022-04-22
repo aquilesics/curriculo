@@ -111,17 +111,32 @@ export default {
         { title: 'GCP', items: ['Analytics', 'Big Query', 'Dataprep', 'Data Studio'], image: 'gcp.svg' },
         { title: 'Flask (Intermediário)', items: ['REST api', 'Blueprints', 'SPA'], image: 'flask.svg' },
         { title: 'Python (Intermediário)', items: ['Lambda, map, filter', 'Funções geradoras (yield)', 'Functools (Lru_cache, reduce, singledispatch)', 'ABC', 'Virtual env', 'Packing e unpacking'], image: 'python.svg' },
-        { title: 'Bash (Intermediário)', items: ['Cat, ls, cd e outros programas GNU', 'AWK para processameno de texto', 'STDIN e STDOUT'], image: 'bash.svg' },
+        { title: 'Bash (Intermediário)', items: ['Cat, ls, cd e outros programas GNU', 'AWK para processamento de texto', 'STDIN e STDOUT'], image: 'bash.svg' },
         { title: 'Pandas (básico)', items: ['ETL de dataframes', 'jupyter notebook', 'loc, iloc e outros métodos comuns'], image: 'pandas.svg' },
         { title: 'Docker', items: ['Simular ambientes de Prod'], image: 'docker.svg' },
-        { title: 'Git', items: ['Commits, pushs, brench'], image: 'git.svg' },
+        { title: 'Git', items: ['Commits, Push, Branch'], image: 'git.svg' },
         { title: 'Java Script (básico)', items: ['Node', 'Noções de Funções e objetos'], image: 'js.svg' },
         { title: 'css', items: ['Responsive Design, Flex, Grid', 'Animations etc'], image: 'css.svg' },
         { title: 'vue (básico)', items: ['Single components', 'Templates, diretivas, props'], image: 'vue.svg' },
         { title: 'Power bi (Intermediário)', items: ['Dax e Formula M', 'Integração com Views'], image: 'powerbi.svg' },
-        { title: 'Postgresql (básico)', items: ['DML, Views', 'Groups, joins e relações', 'Funções personalizadas'], image: 'postgres.svg' }
+        { title: 'Postgresql (básico)', items: ['DML, Views', 'Joins e Procedures', 'Funções personalizadas'], image: 'postgres.svg' }
       ],
       experiencias: [
+        {
+          empresa: 'FIS',
+          cargo: 'Analista de Dados (Setor de Fraude)',
+          periodo: {
+            inicio: 'Dez/2021',
+            fim: 'Atualmente'
+          },
+          descricao: [
+            'ETL usando Pandas e Numpy',
+            'Transact SQL',
+            'Qlik View (Processos legados)',
+            'Dashboards usando Power bi (Formula M/Dax)',
+            'Análise de perfis de Fraude'
+          ]
+        },
         {
           empresa: 'Accenture',
           cargo: 'Analista Financeiro Junior',
