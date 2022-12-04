@@ -1,5 +1,5 @@
 <template>
-  <div class="shadow rounded-lg p-4 divide-y divide-purple-300">
+  <div class="shadow rounded-lg p-4 divide-y divide-green-300">
     <div class="pb-2">
       <h3 class="font-bold text-md">
         <slot name="empresa" />

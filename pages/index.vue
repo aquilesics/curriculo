@@ -5,7 +5,7 @@
     <div class="div border-2 rounded-md space-y-4 md:flex-grow p-4">
       <!-- foto e nome  -->
       <div class="div flex flex-wrap items-center gap-4 md:flex-col">
-        <img class="w-16 h-16 rounded-full flex-shrink-0 border-2 border-purple-300 p-1 md:w-32 md:h-32" src="../assets/1_me_greyscale.jpg" alt="">
+        <img class="w-16 h-16 rounded-full flex-shrink-0 border-2 border-green-300 p-1 md:w-32 md:h-32" src="../assets/1_me_greyscale.jpg" alt="">
         <div class="flex flex-col">
           <span class="text-xl font-bold">Aquiles Coutinho</span>
           <span class="text-sm font">@aqls_art</span>
@@ -108,18 +108,18 @@ export default {
   data () {
     return {
       icons: [
-        { title: 'GCP', items: ['Analytics', 'Big Query', 'Dataprep', 'Data Studio'], image: 'gcp.svg' },
-        { title: 'Flask (Intermediário)', items: ['REST api', 'Blueprints', 'SPA'], image: 'flask.svg' },
-        { title: 'Python (Intermediário)', items: ['Lambda, map, filter', 'Funções geradoras (yield)', 'Functools (Lru_cache, reduce, singledispatch)', 'ABC', 'Virtual env', 'Packing e unpacking'], image: 'python.svg' },
-        { title: 'Bash (Intermediário)', items: ['Cat, ls, cd e outros programas GNU', 'AWK para processamento de texto', 'STDIN e STDOUT'], image: 'bash.svg' },
-        { title: 'Pandas (básico)', items: ['ETL de dataframes', 'jupyter notebook', 'loc, iloc e outros métodos comuns'], image: 'pandas.svg' },
+        { title: 'Tableau', items: ['Apresentações de indicadores', 'Table calculations', 'Bind, Joins and Relationships', 'Tableau data Prep'], image: 'tableau.svg' },
+        { title: 'Power bi', items: ['Dax e Formula M', 'Integração com Views'], image: 'powerbi.svg' },
+        { title: 'Flask', items: ['REST api', 'Blueprints', 'SPA'], image: 'flask.svg' },
+        { title: 'Python', items: ['Lambda, map, filter', 'Funções geradoras (yield)', 'Functools (Lru_cache, reduce, singledispatch)', 'ABC', 'Virtual env', 'Packing e unpacking'], image: 'python.svg' },
+        { title: 'Numpy', items: ['Manipulação de Arrays ND', 'Muito mais rapido que listas/tuplas'], image: 'numpy.svg' },
+        { title: 'Pandas', items: ['ETL de dataframes', 'jupyter notebook', 'loc, iloc e outros métodos comuns'], image: 'pandas.svg' },
         { title: 'Docker', items: ['Simular ambientes de Prod'], image: 'docker.svg' },
         { title: 'Git', items: ['Commits, Push, Branch'], image: 'git.svg' },
-        { title: 'Java Script (básico)', items: ['Node', 'Noções de Funções e objetos'], image: 'js.svg' },
+        { title: 'Java Script', items: ['*Utilizado para criar algumas interfaces para ETL\'s', 'Node', 'Noções de Funções e objetos'], image: 'js.svg' },
         { title: 'css', items: ['Responsive Design, Flex, Grid', 'Animations etc'], image: 'css.svg' },
         { title: 'Vue (básico)', items: ['Single components', 'Templates, diretivas, props'], image: 'vue.svg' },
-        { title: 'Power bi (Intermediário)', items: ['Dax e Formula M', 'Integração com Views'], image: 'powerbi.svg' },
-        { title: 'Postgresql (básico)', items: ['DML, Views', 'Joins e Procedures', 'Funções personalizadas'], image: 'postgres.svg' }
+        { title: 'SQL Server', items: ['DML, Views', 'Joins e Procedures', 'Window functions'], image: 'sqlserver.svg' }
       ],
       experiencias: [
         {
@@ -130,11 +130,12 @@ export default {
             fim: 'Atualmente'
           },
           descricao: [
+            'Elaboração de Indicadores da Área',
             'ETL usando Pandas e Numpy',
+            'Dask *para tabelas grandes',
             'Transact SQL',
             'Qlik View (Processos legados)',
-            'Dashboards usando Power bi (Formula M/Dax)',
-            'Análise de perfis de Fraude'
+            'Dashboards com Tableau/Power bi'
           ]
         },
         {

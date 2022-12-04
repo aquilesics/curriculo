@@ -1,6 +1,6 @@
 export default {
   loading: {
-    color: 'purple',
+    color: 'green',
     height: '2px'
   },
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
