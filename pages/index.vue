@@ -15,13 +15,24 @@
       <!-- bio e info-->
       <div class="space-y-4">
         <p class="text-md">
-          Sou analista de dados e utilizo programação para detectar e combater fraudes em transações bancárias.
+          Sou analista de dados e utilizo programação 
           <br>
-          Trabalho com grande quantidade de dados; do ETL até a apresentação final (DataViz).
+          para detectar e combater fraudes em transações bancárias.
           <br>
-          Gosto de criar automações e testar hipóteses que podem nos ajudar na solução de problemas.
           <br>
-          Atualmente estudando Machine Learning, interesse por análise de dados e programação Back End.
+          Trabalho com grande quantidade de dados; 
+          <br>
+          do ETL até a apresentação final (DataViz).
+          <br>
+          <br>
+          Gosto de criar automações e testar hipóteses
+          <br>
+          que podem nos ajudar na solução de problemas.
+          <br>
+          <br>
+          Atualmente estudando Machine Learning, 
+          <br></br>
+          interesse por análise de dados e programação Back End.
         </p>
         <!-- adress, phone ,email...-->
         <div class="flex-col text-sm space-y-1">
