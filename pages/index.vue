@@ -31,7 +31,7 @@
           <br>
           <br>
           Atualmente estudando Machine Learning, 
-          <br></br>
+          <br>
           interesse por análise de dados e programação Back End.
         </p>
         <!-- adress, phone ,email...-->
