@@ -15,7 +15,13 @@
       <!-- bio e info-->
       <div class="space-y-4">
         <p class="text-md">
-          Gosto de automatizar tarefas chatas e adoro arte!
+          Sou analista de dados e utilizo programação para detectar e combater fraudes em transações bancárias.
+          <br>
+          Trabalho com grande quantidade de dados; do ETL até a apresentação final (DataViz).
+          <br>
+          Gosto de criar automações e testar hipóteses que podem nos ajudar na solução de problemas.
+          <br>
+          Atualmente estudando Machine Learning, interesse por análise de dados e programação Back End.
         </p>
         <!-- adress, phone ,email...-->
         <div class="flex-col text-sm space-y-1">
